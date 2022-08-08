@@ -1,0 +1,15 @@
+:root {
+    --grid-rows: 1;
+    --grid-cols: 1;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeart(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.grid-item {
+    text-align: center;
+    padding: 1em;
+}
