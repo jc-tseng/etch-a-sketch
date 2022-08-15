@@ -16,8 +16,6 @@ function createGrid(x) {
 
 createGrid(16);
 
-const items = document.getElementsByClassName('grid-item');
-
 const set_grid = document.querySelector('.set-grid');
 
 set_grid.addEventListener('click', () => {
